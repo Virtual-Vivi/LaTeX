@@ -1,33 +1,26 @@
-\documentclass[]{article}
+\documentclass{article}
 \usepackage[fontsize=14pt]{fontsize}
 \usepackage{fontspec}
+\usepackage{fix-cm}
 \setmainfont{CMU Serif}
 \setsansfont{CMU Sans Serif}
-\setmonofont{CMU Typewriter Text}
 
 \usepackage[
 	a4paper,
 	footskip=1cm,
 	headsep=0.3cm,
-	top=2cm, %поле зверху
-	bottom=2cm, %поле знизу
-	left=2cm, %поле ліворуч
-	right=2cm, %поле праворуч
+	top=2cm,
+	bottom=2cm,
+	left=2cm,
+	right=2cm
     ]{geometry}
 
-
+\usepackage{amsfonts}
 \usepackage{microtype}
-\usepackage{logix}
 
 \usepackage[english, ukrainian]{babel}
-\usepackage{indentfirst}
 \usepackage{amsmath}
 \usepackage{amsthm}
-
-\setmathfont{LatinModern Math}
-%\setmathfont[range={\mathbb, \Re, \Im}]{TeX Gyre Termes Math}
-%\setmathfont[range=\mathcal]{cmsy10}
-
 
 \title{\sffamily Рівневий набір гармонійних функцій}
 \author{А. В. Тор}
@@ -56,7 +49,7 @@
 \begin{align*}
     \lim_{\substack{a| \to +\infty \\ \ a \in \Sigma_{\pm1,\theta}}} \arg a = \frac{-2\theta + 2k\pi}{5}, \quad k = 0,1,2,3,4.
 \end{align*}
-Для $ \theta = 0 $, (відповідно $ \theta = \frac{\pi}{2} $), один промінь $ \Sigma_{1,\theta} $ (відповідно $ \Sigma_{-1,\theta} $) розходиться до $ z = -1 $ (відповідно $ z = 1 $).}\\
+Для $ \theta = 0 $, (відповідно $ \theta = \frac{\pi}{2} $), один промінь $ \Sigma_{1,\theta} $ (відповідно $ \Sigma_{-1,\theta} $) розходиться до $ z = -1 $ (відповідно $ z = 1 $).}
 
 % --------------------------------------------------------
 \begin{proof}
