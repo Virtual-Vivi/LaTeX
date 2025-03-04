@@ -1,0 +1,456 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Wan}{article}{useauthor=false}
+      \name{author}{6}{}{%
+        {{hash=89e6523bf81bfbf73d786d26ffb5f855}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=83b108c1ae00aae3bc551e97c72ae5fb}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=922b74338e14a4c81b03a7487c18522b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5c438ad28570ac8ec357231444b96757}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ef065b28c31984323fd6d3483d29aafd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6ac05c3e47f6ad0b0b5e793cc1797f80}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{authorbibnamehash}{eb4a16c7b6ed03a3e59fed2d5fdeb159}
+      \strng{authornamehash}{eb4a16c7b6ed03a3e59fed2d5fdeb159}
+      \strng{authorfullhash}{24fd17ecdba03a29a52f467b29a04488}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{612}
+      \field{journaltitle}{Journal of Hydrology}
+      \field{langid}{english}
+      \field{title}{A novel model for water quality prediction caused by non-point sources pollution based on deep learning and feature extraction methods}
+      \field{year}{2022}
+      \field{pages}{128081}
+      \range{pages}{1}
+      \field{volume}{612}
+      \range{volume}{1}
+    \endentry
+    \entry{Burkart-Jha}{article}{}
+      \name{author}{2}{}{%
+        {{hash=07918a2191d44a36770cb4ad112ccae5}{%
+           family={Burkart},
+           familyi={B\bibinitperiod},
+           given={C.S.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6ac86535362f844b76768677f363261b}{%
+           family={Jha},
+           familyi={J\bibinitperiod},
+           given={M.K.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{5585552d12beb7677975a9df91c3ce2b}
+      \strng{fullhash}{5585552d12beb7677975a9df91c3ce2b}
+      \strng{bibnamehash}{5585552d12beb7677975a9df91c3ce2b}
+      \strng{authorbibnamehash}{5585552d12beb7677975a9df91c3ce2b}
+      \strng{authornamehash}{5585552d12beb7677975a9df91c3ce2b}
+      \strng{authorfullhash}{5585552d12beb7677975a9df91c3ce2b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{37}
+      \field{journaltitle}{Journal of Agricultural and Resource Economics}
+      \field{langid}{english}
+      \field{month}{02}
+      \field{title}{Site-Specific Simulation of Nutrient Control Policies: Integrating Economic and Water Quality Effects}
+      \field{year}{2012}
+      \true{nocite}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{20\bibrangedash 33}
+      \range{pages}{14}
+      \field{volume}{37}
+      \range{volume}{1}
+    \endentry
+    \entry{Anderson}{article}{useauthor=false}
+      \name{author}{6}{}{%
+        {{hash=4e5aa1159bc17d3642fd2d5fba5748a7}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={T.A},
+           giveni={T\bibinitperiod}}}%
+        {{hash=988473828ee889f63e2e130c48bf3c18}{%
+           family={Salice},
+           familyi={S\bibinitperiod},
+           given={C.J.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9919f53f87d1de627efd9f2f9144c36e}{%
+           family={Erickson},
+           familyi={E\bibinitperiod},
+           given={R.A.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8c98d260677d59b38bad4463ce70bcda}{%
+           family={McMurry},
+           familyi={M\bibinitperiod},
+           given={S.T.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e791f51a765adac124775c12b036c80d}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={S.B.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ffdab7cf4d42406a26f88e2b4c27d60b}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={L.M.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{authorbibnamehash}{8502d003b8d0e8aa5bb03f7d05c164c1}
+      \strng{authornamehash}{8502d003b8d0e8aa5bb03f7d05c164c1}
+      \strng{authorfullhash}{9d56a3a368b4833c6de1c11052765a37}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{92}
+      \field{journaltitle}{Chemosphere}
+      \field{langid}{english}
+      \field{title}{Effects of landuse and precipitation on pesticides and water quality in playa lakes of the southern high plains}
+      \field{year}{2013}
+      \true{nocite}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{84\bibrangedash 90}
+      \range{pages}{7}
+      \field{volume}{92}
+      \range{volume}{1}
+    \endentry
+    \entry{Gao-Xu-Yuan}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9b124d245dd0bca583addd54e092631e}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=c0614e3cda3d136f04f8e826877d2c3d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4f9eb8924291f7c9312be9532c9769ab}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b5650adac01ab4a59800d059c1848e3a}
+      \strng{fullhash}{b5650adac01ab4a59800d059c1848e3a}
+      \strng{bibnamehash}{b5650adac01ab4a59800d059c1848e3a}
+      \strng{authorbibnamehash}{b5650adac01ab4a59800d059c1848e3a}
+      \strng{authornamehash}{b5650adac01ab4a59800d059c1848e3a}
+      \strng{authorfullhash}{b5650adac01ab4a59800d059c1848e3a}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{28}
+      \field{journaltitle}{Environmental Science and Pollution Research}
+      \field{langid}{english}
+      \field{month}{06}
+      \field{title}{Environmental change and fishermen's income: is there a poverty trap: Evidence from China's coastal areas}
+      \field{year}{2021}
+      \true{nocite}
+      \field{number}{43}
+      \range{number}{1}
+      \field{pages}{60676\bibrangedash 60691}
+      \range{pages}{16}
+      \field{volume}{28}
+      \range{volume}{1}
+    \endentry
+    \entry{Hatfield-Prueger}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a9679d9ae8d042d8a272eb354e8a722f}{%
+           family={Hatfield},
+           familyi={H\bibinitperiod},
+           given={J.L.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=df7edff7c67b9ac66dc8cfde9a074db0}{%
+           family={Prueger},
+           familyi={P\bibinitperiod},
+           given={J.H.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{12ec44ceb8728b07bea32a01449f192c}
+      \strng{fullhash}{12ec44ceb8728b07bea32a01449f192c}
+      \strng{bibnamehash}{12ec44ceb8728b07bea32a01449f192c}
+      \strng{authorbibnamehash}{12ec44ceb8728b07bea32a01449f192c}
+      \strng{authornamehash}{12ec44ceb8728b07bea32a01449f192c}
+      \strng{authorfullhash}{12ec44ceb8728b07bea32a01449f192c}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{59}
+      \field{journaltitle}{Journal of Soil and Water Conservation}
+      \field{langid}{english}
+      \field{title}{Impacts of changing precipitation patterns on water quality}
+      \field{year}{2004}
+      \true{nocite}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{51\bibrangedash 58}
+      \range{pages}{8}
+      \field{volume}{59}
+      \range{volume}{1}
+    \endentry
+    \entry{Khullar-Singh}{article}{}
+      \name{author}{2}{}{%
+        {{hash=64fb80cfefa42bc7b3d43c1ef5ec7d1e}{%
+           family={Khullar},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=685b19c4bbdaabd91d7592d4b01494ae}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b6f8f04cbb1365817ae43a49f80f8197}
+      \strng{fullhash}{b6f8f04cbb1365817ae43a49f80f8197}
+      \strng{bibnamehash}{b6f8f04cbb1365817ae43a49f80f8197}
+      \strng{authorbibnamehash}{b6f8f04cbb1365817ae43a49f80f8197}
+      \strng{authornamehash}{b6f8f04cbb1365817ae43a49f80f8197}
+      \strng{authorfullhash}{b6f8f04cbb1365817ae43a49f80f8197}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{21}
+      \field{journaltitle}{Water Supply}
+      \field{langid}{english}
+      \field{month}{02}
+      \field{title}{Machine learning techniques in river water quality modelling: a research travelogue}
+      \field{year}{2021}
+      \true{nocite}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \field{volume}{21}
+      \range{volume}{1}
+    \endentry
+    \entry{Malek}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=385048cdb862b96d247e7addcfcd7f24}{%
+           family={Malek},
+           familyi={M\bibinitperiod},
+           given={N.H.A.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=fae2eede36227510b74371044db82499}{%
+           family={Wan\bibnamedelima Yaacob},
+           familyi={W\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           given={W.F.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=aafe519bf3a2fab70fcb11611ec29b24}{%
+           family={Md\bibnamedelima Nasir},
+           familyi={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={S.A.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4ff14fc3a7d02f7601f5e9c0c14cea73}{%
+           family={Shaadan},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{authorbibnamehash}{fcfcc2ab51474bb07b38cf9e5aae720a}
+      \strng{authornamehash}{fcfcc2ab51474bb07b38cf9e5aae720a}
+      \strng{authorfullhash}{024871827c6fa2960618b89156271f86}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{14}
+      \field{journaltitle}{Water}
+      \field{langid}{english}
+      \field{month}{03}
+      \field{title}{Prediction of Water Quality Classification of the Kelantan River Basin, Malaysia, Using Machine Learning Techniques}
+      \field{year}{2022}
+      \true{nocite}
+      \field{number}{7}
+      \range{number}{1}
+      \field{pages}{1067}
+      \range{pages}{1}
+      \field{volume}{14}
+      \range{volume}{1}
+    \endentry
+    \entry{Nouraki}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=70ee1c9d5033f1ba944bde91aaa5dd17}{%
+           family={Nouraki},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0d0f09442e6ef88759f93c096efd2405}{%
+           family={Alavi},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3272e6af7424b1666018b461f546854b}{%
+           family={Golabi},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6d0faff4938596bd97ecdbe40a589379}{%
+           family={Albaji},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{authorbibnamehash}{ebc481f886a4dbe70b8e23a9fca0be8c}
+      \strng{authornamehash}{ebc481f886a4dbe70b8e23a9fca0be8c}
+      \strng{authorfullhash}{addecb2d945b3bc0eaf410f4b2263edc}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{28}
+      \field{journaltitle}{Environmental Science and Pollution Research}
+      \field{langid}{english}
+      \field{title}{Prediction of water quality parameters using machine learning models: a case study of the Karun River, Iran}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{57060\bibrangedash 57072}
+      \range{pages}{13}
+      \field{volume}{28}
+      \range{volume}{1}
+    \endentry
+    \entry{Zaychenko}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6e1d08aba9f5fef46fa55cac679bf6b3}{%
+           family={Зайченко},
+           familyi={З\bibinitperiod},
+           given={Ю.П.},
+           giveni={Ю\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {ukrainian}%
+      }
+      \list{location}{1}{%
+        {Київ}%
+      }
+      \list{publisher}{1}{%
+        {ЗАТ «ВІПОЛ»}%
+      }
+      \strng{namehash}{6e1d08aba9f5fef46fa55cac679bf6b3}
+      \strng{fullhash}{6e1d08aba9f5fef46fa55cac679bf6b3}
+      \strng{bibnamehash}{6e1d08aba9f5fef46fa55cac679bf6b3}
+      \strng{authorbibnamehash}{6e1d08aba9f5fef46fa55cac679bf6b3}
+      \strng{authornamehash}{6e1d08aba9f5fef46fa55cac679bf6b3}
+      \strng{authorfullhash}{6e1d08aba9f5fef46fa55cac679bf6b3}
+      \field{sortinit}{З}
+      \field{sortinithash}{1d80b3a15a09c2872443be31e19ee653}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{langid}{ukrainian}
+      \field{title}{Дослiдження операцiй}
+      \field{year}{2000}
+      \true{nocite}
+    \endentry
+    \entry{Kondruk-Malyar}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=e84e7e0d2bc691665a360f463a0d6b30}{%
+           family={Кондрук},
+           familyi={К\bibinitperiod},
+           given={М.М.},
+           giveni={М\bibinitperiod},
+           suffix={Н.Е.\bibnamedelimi та\bibnamedelima Маляр},
+           suffixi={Н\bibinitperiod\bibinitdelim т\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {ukrainian}%
+      }
+      \list{location}{1}{%
+        {Ужгород}%
+      }
+      \list{publisher}{1}{%
+        {РА «АУТДОР-ШАРК»}%
+      }
+      \strng{namehash}{e84e7e0d2bc691665a360f463a0d6b30}
+      \strng{fullhash}{e84e7e0d2bc691665a360f463a0d6b30}
+      \strng{bibnamehash}{e84e7e0d2bc691665a360f463a0d6b30}
+      \strng{authorbibnamehash}{e84e7e0d2bc691665a360f463a0d6b30}
+      \strng{authornamehash}{e84e7e0d2bc691665a360f463a0d6b30}
+      \strng{authorfullhash}{e84e7e0d2bc691665a360f463a0d6b30}
+      \field{sortinit}{К}
+      \field{sortinithash}{007824ff2af181c6f6762379475efd5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{1}
+      \field{langid}{ukrainian}
+      \field{month}{04}
+      \field{title}{Багатокритеріальна оптимізація лінійних систем}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{5\bibrangedash 6}
+      \range{pages}{2}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

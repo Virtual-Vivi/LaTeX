@@ -1,0 +1,14 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'hw_biber.blg'
+[49] biber-darwin:340> INFO - === Tue Mar  4, 2025, 01:37:24
+[62] Biber.pm:419> INFO - Reading 'hw_biber.bcf'
+[143] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[156] Biber.pm:4419> INFO - Processing section 0
+[164] Biber.pm:4610> INFO - Looking for bibtex file 'Bibliography.bib' for section 0
+[166] bibtex.pm:1713> INFO - LaTeX decoding ...
+[178] bibtex.pm:1519> INFO - Found BibTeX data source 'Bibliography.bib'
+[253] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[253] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'variable = shifted' with 'variable = non-ignorable'
+[254] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'uk-UA'
+[263] bbl.pm:660> INFO - Writing 'hw_biber.bbl' with encoding 'UTF-8'
+[269] bbl.pm:763> INFO - Output to hw_biber.bbl
