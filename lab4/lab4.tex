@@ -1,0 +1,73 @@
+\documentclass{article}
+
+\usepackage[fontsize=14pt]{fontsize}
+\usepackage{fontspec}
+\setmainfont{CMU Serif}
+\usepackage[english, ukrainian]{babel}
+\usepackage{microtype}
+
+\usepackage{datetime2}
+\usepackage{tabularray}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\usepackage{caption}
+\captionsetup{labelformat=empty, skip=20pt}
+
+\usepackage[
+	a4paper,
+	landscape,
+	margin=0.5cm,
+    ]{geometry}
+
+\NewDocumentCommand{\Day}{m}{\rotatebox{90}{\DTMukrainianWeekdayname{#1}}}
+\NewDocumentCommand{\A}{}{$8^{30} - 10^{05}$}
+\NewDocumentCommand{\B}{}{$10^{25} - 12^{00}$}
+\NewDocumentCommand{\C}{}{$12^{20} - 13^{55}$}
+\NewDocumentCommand{\D}{}{$14^{15} - 15^{50}$}
+\NewDocumentCommand{\E}{}{$16^{10} - 17^{45}$}
+\NewDocumentCommand{\F}{}{$18^{30} - 20^{05}$}
+\NewDocumentCommand{\G}{}{$20^{20} - 21^{55}$}
+
+
+\begin{document}
+\begin{table}
+	\centering
+	\caption{\LARGE\textbf{Розклад занять}}
+	\begin{tblr}{
+		vlines, hlines,
+		colspec={Q[c, m]Q[l, m]X[l, m]X[l, m]Q[c, m]Q[l, m]X[l, m]X[l, m]},
+		row{odd} = {bg=lightgray!20},
+		row{even} = {bg=cyan!10},
+		row{1} = {2em, halign=c, font=\normalsize\bfseries, bg=lightgray!50},
+		cell{2, 9, 16}{1, 5} = {font=\normalsize\bfseries, bg=lightgray!50},
+		hline{2, 9, 16} = {1}{-}{solid},
+		hline{2, 9, 16} = {2}{-}{solid},
+		vline{2, 3, 5, 6, 7} = {1}{-}{solid},
+		vline{2, 3, 5, 6, 7} = {2}{-}{solid},
+		}
+		Дні					& Години	& І Тиждень	& ІІ Тиждень	& Дні				& Години	& І Тиждень	& ІІ Тиждень	\\
+		\SetCell[r=7]{m} \Day{0}	& \A		&			&			& \SetCell[r=7]{m} \Day{3}	& \A		&			&			\\
+							& \B		&			&			& 					& \B		&			&			\\
+							& \C		&			&			& 					& \C		&			&			\\
+							& \D		&			&			& 					& \D		&			&			\\
+							& \E		&			&			& 					& \E		&			&			\\
+							& \F		&			&			& 					& \F		&			&			\\
+							& \G		&			&			& 					& \G		&			&			\\
+		\SetCell[r=7]{m} \Day{1}	& \A		&			&			& \SetCell[r=7]{m} \Day{4}	& \A		&			&			\\
+							& \B		&			&			& 					& \B		&			&			\\
+							& \C		&			&			& 					& \C		&			&			\\
+							& \D		&			&			& 					& \D		&			&			\\
+							& \E		&			&			& 					& \E		&			&			\\
+							& \F		&			&			& 					& \F		&			&			\\
+							& \G		&			&			& 					& \G		&			&			\\
+		\SetCell[r=7]{m} \Day{2}	& \A		&			&			& \SetCell[r=7]{m} \Day{5}	& \A		&			&			\\
+							& \B		&			&			& 					& \B		&			&			\\
+							& \C		&			&			& 					& \C		&			&			\\
+							& \D		&			&			& 					& \D		&			&			\\
+							& \E		&			&			& 					& \E		&			&			\\
+							& \F		&			&			& 					& \F		&			&			\\
+							& \G		&			&			& 					& \G		&		
+	\end{tblr}
+\end{table}
+\end{document}
