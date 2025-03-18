@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[papersize={20cm,20cm}, margin=2.5cm]{geometry}
+\pagestyle{empty}
+
+\definecolor{darksepia}{RGB}{78, 52, 46}
+\definecolor{bronze}{RGB}{125, 98, 72}
+\definecolor{agedpaper}{RGB}{230, 214, 184}
+\definecolor{inkblack}{RGB}{30, 30, 30}
+
+\NewDocumentCommand{\Clock}{mm}{%
+    \begin{tikzpicture}[scale=2]
+        % Декоративні кружечки
+        \foreach \angle in {0, 45,..., 315} {
+            \draw[thick, bronze] ({3.2*cos(\angle)}, {3.2*sin(\angle)}) circle (0.2);
+        }
+        \foreach \angle in {45, 135, 225, 315} {
+            \fill[bronze] ({3.7*cos(\angle)}, {3.7*sin(\angle)}) circle (0.4);
+        }
+        
+        % Фон годинника
+        \fill[agedpaper] (0,0) circle (3);
+        \draw[line width=2.5pt, darksepia] (0,0) circle (3);
+        
+        % Штрихи
+        \foreach \angle in {0,30,...,330} {
+            \draw[thick, inkblack] ({3*cos(\angle)},{3*sin(\angle)}) -- ({2.8*cos(\angle)},{2.8*sin(\angle)});
+        }
+        \foreach \angle in {0,6,...,354} {
+            \draw[thin, inkblack] ({3*cos(\angle)},{3*sin(\angle)}) -- ({2.9*cos(\angle)},{2.9*sin(\angle)});
+        }
+        
+        % Римські цифри
+        \foreach \n/\roman in {1/I, 2/II, 3/III, 4/IV, 5/V, 6/VI, 7/VII, 8/VIII, 9/IX, 10/X, 11/XI, 12/XII} {
+            \node[font=\bfseries, inkblack, scale=1.5] at ({2.3*cos(90-30*\n)}, {2.3*sin(90-30*\n)}) {\roman};
+        }
+        
+        % Стрілки годинника
+        \pgfmathsetmacro\hourAngle{90-#1*30-#2/2}
+        \pgfmathsetmacro\minuteAngle{90-#2*6}
+        \draw[line width=5pt, darksepia] (0,0) -- ({1.5*cos(\hourAngle)},{1.5*sin(\hourAngle)});
+        \draw[line width=3pt, bronze] (0,0) -- ({1.8*cos(\minuteAngle)},{1.8*sin(\minuteAngle)});
+        
+        % Центр годинника
+        \fill[bronze] (0,0) circle (0.3);
+        
+        % Рамка
+        \draw[line width=4pt, darksepia] (-3.7,-3.7) rectangle (3.7,3.7);
+        
+    \end{tikzpicture}
+}
+
+\begin{document}
+\begin{center}
+    \Clock{10}{15}
+\end{center}
+\end{document}
