@@ -1,0 +1,42 @@
+\documentclass[border=0.5cm]{standalone}
+\usepackage{pgfplots}
+\usetikzlibrary{intersections}
+
+\NewDocumentCommand{\Intersections}{m m}{%
+	\begin{tikzpicture}
+    		\begin{axis}[
+			axis lines=middle,
+			enlargelimits,
+			samples=200,
+			domain=-5:5,
+			xlabel={$x$},
+			ylabel={$y$},
+			minor tick num=4,
+		]
+		
+		% First function
+		\addplot[draw = blue, line width = 0.5 pt, mark = none, name path global = A] {#1};
+		
+		% Second function
+		\addplot[draw = orange, line width = 0.5 pt, mark = none, name path global = B] {#2};
+		
+		% Intersection
+		\path [name intersections={of=A and B, name=I, total=\t}, red]
+		foreach \i in {1, ..., \t} {
+			node[circle, inner sep=1pt, fill=red] (A) at (I-\i) {}
+			node[above, font=\tiny] at (I-\i) {
+				\pgfplotspointgetcoordinates{(I-\i)}
+			$(
+			\pgfmathprintnumber[fixed]{\pgfkeysvalueof{/data point/x}},
+			\pgfmathprintnumber[fixed]{\pgfkeysvalueof{/data point/y}}
+			)$
+			}
+		};
+    		\end{axis}
+	\end{tikzpicture}
+}
+
+\begin{document}
+    \Intersections{cos(deg(x))}{0.1*x}
+    \Intersections{- 0.25*x^2 + 1}{0.25*x^2 - 1}
+\end{document}
